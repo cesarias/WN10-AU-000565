@@ -38,7 +38,7 @@ Remediate STIG finding `WN10-AU-000565` by enabling auditing of "Other Logon/Log
 <img width="1000" alt="image" src="https://i.imgur.com/8h0ofUA.jpeg">
 <img width="1000" alt="image" src="https://i.imgur.com/fvcrHvj.png">
 * **Verification:** Re-scan with Tenable shows compliance
-<img width="1000" alt="image" src="https://i.imgur.com/25icqPB.png">
+<img width="1000" alt="image" src="https://i.imgur.com/SJrhIqT.png">
 
 
 ### 3. Undo Manual Fix (Optional)
