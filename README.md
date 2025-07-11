@@ -58,7 +58,7 @@ auditpol /set /subcategory:"Other Logon/Logoff Events" /failure:enable
 * **Execution:** Run in elevated PowerShell window (Run as Administrator)
 <img width="1000" alt="image" src="https://i.imgur.com/JkUSDMn.png">
 * **Verification:** Final scan confirms STIG compliance
-<img width="1000" alt="image" src="">
+<img width="1000" alt="image" src="https://i.imgur.com/e90oSCa.png">
 ---
 
 ## 📂 Supporting Files
@@ -72,12 +72,30 @@ auditpol /set /subcategory:"Other Logon/Logoff Events" /failure:enable
 
 ## 🔄 Before and After Comparison
 
-| State      | Screenshot              |
-| ---------- | ----------------------- |
-| Before Fix | images/initial-scan.png |
-| After Fix  | images/final-scan.png   |
+| State      | Screenshot                                                             |
+| ---------- | ---------------------------------------------------------------------- |
+| Before Fix | <img width="1000" alt="image" src="https://i.imgur.com/iFYAiny.png">   |
+| After Fix  | <img width="1000" alt="image" src="https://i.imgur.com/e90oSCa.png">   |
 
 ---
+
+🧪 Simulating Detection: Triggering a Failure
+
+To confirm that the audit policy works:
+
+Attempt a failed RDP login from another machine or simulate a failed local login (wrong password).
+
+Then run:
+
+eventvwr.msc
+
+Navigate to: Windows Logs > Security
+
+Filter logs for Event ID 4625 (failed logon)
+
+Screenshot of Log Entry: 
+
+<img width="1000" alt="image" src="https://i.imgur.com/X0gdJcT.png">
 
 ## 📚 Lessons Learned
 
