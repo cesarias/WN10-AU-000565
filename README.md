@@ -45,8 +45,8 @@ Remediate STIG finding `WN10-AU-000565` by enabling auditing of "Other Logon/Log
 
 * Revert the setting to **Not Configured**
 * Re-scan to confirm STIG is once again **non-compliant**
-<img width="1000" alt="image" src="https://i.imgur.com/25icqPB.png">
-
+<img width="1000" alt="image" src="https://i.imgur.com/GHZPleS.png">
+<img width="1000" alt="image" src="https://i.imgur.com/GP34IaP.png">
 ### 4. PowerShell Remediation
 
 ```powershell
