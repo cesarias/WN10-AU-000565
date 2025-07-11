@@ -56,9 +56,9 @@ auditpol /set /subcategory:"Other Logon/Logoff Events" /failure:enable
 
 * **File:** `remediate-WN10-AU-000565.ps1`
 * **Execution:** Run in elevated PowerShell window (Run as Administrator)
-<img width="1000" alt="image" src="https://i.imgur.com/25icqPB.png">
+<img width="1000" alt="image" src="https://i.imgur.com/JkUSDMn.png">
 * **Verification:** Final scan confirms STIG compliance
-<img width="1000" alt="image" src="https://i.imgur.com/25icqPB.png">
+<img width="1000" alt="image" src="">
 ---
 
 ## 📂 Supporting Files
