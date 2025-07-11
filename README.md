@@ -24,7 +24,7 @@ Remediate STIG finding `WN10-AU-000565` by enabling auditing of "Other Logon/Log
 * **Tool:** Tenable.sc or Nessus (STIG Plugin Enabled)
 * **Platform:** Azure Windows 10 VM
 * **Result:** Finding `WN10-AU-000565` flagged as **non-compliant**
-<img width="1000" alt="image" src="https://i.imgur.com/25icqPB.png">
+<img width="1000" alt="image" src="https://i.imgur.com/iFYAiny.png">
 ### 2. Manual Remediation
 
 * **Steps:**
@@ -34,9 +34,12 @@ Remediate STIG finding `WN10-AU-000565` by enabling auditing of "Other Logon/Log
     `Computer Configuration > Windows Settings > Security Settings > Advanced Audit Policy Configuration > Audit Policies > Logon/Logoff`
   * Double-click **Other Logon/Logoff Events**
   * Set **Failure** to **Enabled**
-<img width="1000" alt="image" src="https://i.imgur.com/25icqPB.png">
+ 
+<img width="1000" alt="image" src="https://i.imgur.com/8h0ofUA.jpeg">
+<img width="1000" alt="image" src="https://i.imgur.com/fvcrHvj.png">
 * **Verification:** Re-scan with Tenable shows compliance
 <img width="1000" alt="image" src="https://i.imgur.com/25icqPB.png">
+
 
 ### 3. Undo Manual Fix (Optional)
 
